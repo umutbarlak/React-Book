@@ -1,0 +1,25 @@
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+
+const Header = () => {
+  return (
+    <header className="navbar bg-body-tertiary p-3">
+      <div
+        className="container-fluid d-flex align-items-center 
+      "
+      >
+        <span className="navbar-brand mb-0 h1 fs-3">
+          <Link to="/">Kitap Kurdu</Link>
+        </span>
+
+        <div className="d-flex gap-2">
+          <NavLink to="/">Anasayfa</NavLink>
+          <NavLink to="/ürünler">Ürünler</NavLink>
+          <NavLink to="/kategori">Kategori</NavLink>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

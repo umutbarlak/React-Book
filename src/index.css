@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  text-shadow: 0 0 15px #535bf2;
+  font-weight: bold;
+}
+
+body {
+  background: rgb(92, 97, 124);
+  color: white;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 260px;
+}
+
+.aside {
+  max-width: 250px !important;
+}
+
+@media (max-width: 800px) {
+  .card-container {
+    justify-content: center;
+  }
+}
