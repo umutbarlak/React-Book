@@ -1,9 +1,33 @@
-# React + Vite
+<h1>React Book</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje React ile oluşturulmuş bir kitap arama ve detay görüntüleme projesidir.
 
-Currently, two official plugins are available:
+Kullanılan özellikler;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Book
+- Component oluşturup kullanma
+
+- React Router Dom
+
+- Json Server
+
+- Prop gönderme
+
+- useSearchParams kullanımı
+
+- Bootstrap stillendirme
+
+Projenin bize sunduğu özellikler
+
+- Ürünler sayfasında ürünlerin filtrelenmesi; a-z ye veya z-a ya göre filtreleme, arama ile filtreleme özelliği
+
+- Kategori sayfasında kitapların türlerine göre filtreleme ve datay görüntüleme
+
+- bilinmeyen bir adrese gitmeye çalıştığında kullanıcıyı 404 sayfasına yönlendirme
+
+<h2>Kullanılan Diller</h2>
+
+Bu projede React kullanılmıştır
+
+<h2>Ekran Videosu</h2>
+
+![](book-store.gif)
